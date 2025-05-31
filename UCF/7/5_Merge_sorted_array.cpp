@@ -1,0 +1,1 @@
+// Define a function to merge two sorted arrays of same size4.
