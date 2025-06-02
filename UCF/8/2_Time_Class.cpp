@@ -17,10 +17,12 @@ class Time{
         sec = Sec;
     }
     void getTime(){
-        cout << hour << "hh : " << min << " mm : " << sec << " ss " << endl;
+        cout << hour << "hh : " << min << "mm : " << sec << "ss " << endl;
     }
 };
 
 int main(){
-    Time 
+    Time time;
+    time.setTime(5, 4, 3);
+    time.getTime();
 }
