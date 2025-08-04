@@ -1,0 +1,6 @@
+// Define a class String with char pointer and length of the string as instance member
+// variables. Define a method to dynamically create an array of char type and hold the
+// input string in such a way that the array length is just enough to accommodate the
+// input string.
+// define methods to convert string into uppercase, lowercase.
+// define methods to print string, return string, return length of string.
