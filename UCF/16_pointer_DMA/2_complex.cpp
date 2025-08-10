@@ -35,9 +35,10 @@ public:
 
 void classInitiater(int a, int b)
 {
-    Complex c1;
-    c1.setData(a, b);
-    c1.showData();
+    Complex *p = new Complex;
+    p->setData(a, b);
+    p->showData();
+    delete p;
 }
 
 int main()
